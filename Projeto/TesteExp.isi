@@ -1,0 +1,9 @@
+programa
+
+numero a,b,c;
+
+a = 1 ^ 5;
+b = 3 sqrt 10;
+c = 10 log 5;
+
+fimprog;

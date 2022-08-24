@@ -1,0 +1,46 @@
+programa
+
+	numero n1, n2, p1, p2, dur, v1;
+	texto n3, n4, t1, t2, t3;
+	
+	escreva("player1");
+	escreva("digite sua idade");
+	leia(n1);
+	escreva("digite seu nome");
+	leia(n3);
+	
+	escreva("playe2");
+	escreva("digite sua idade");
+	leia(n2);
+	escreva("digite seu nome");
+	leia(n4);
+	
+	se(n1 > n2)
+	{
+		escreva("player1");
+		escreva(n3);
+		escreva("comeca");
+		leia(p1);
+	}
+	senao
+	{
+		escreva("player2");
+		escreva(n4);
+		escreva("comeca");
+		leia(p2);
+	}
+	
+	escreva("digite duracao");
+	leia(dur);
+	
+	v1 = 1 ^ 5;
+	v1 = 3 sqrt 10;
+	v1 = 10 log 5;
+	
+	enquanto(dur > 0)
+	{
+		escreva("jogada de dado");
+		dur = dur - 1;
+	}
+	
+fimprog;

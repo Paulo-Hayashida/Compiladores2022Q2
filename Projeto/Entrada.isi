@@ -1,0 +1,26 @@
+programa
+
+numero a,b,c;
+texto s1, s2, s3;
+
+a = 7.5;
+b = 2 + 2;
+
+leia(s1);
+
+se(a == b)
+{
+	escreva("ola");
+}
+senao
+{
+	leia(s2);
+}
+
+enquanto(a > b)
+{
+	escreva("oi mundo");
+	a = a - 1;
+}
+
+fimprog;
