@@ -58,4 +58,6 @@
 ## Anexos B (2 Itens - NÃO UTILIZADO)
 
 ## Considerações
--
+- Mais detalhe sobre as funções podem ser encontrados no código fonte.
+- Os comportamentos não esperados das funções 'sqrt' e 'log' refletem diretamente na possibilidade da gramática estar incompleta, deixando margem para trabalhos futuros.
+- O link para o vídeo no YouTube com os testes: https://www.youtube.com/watch?v=MgwfCNg5sJw
