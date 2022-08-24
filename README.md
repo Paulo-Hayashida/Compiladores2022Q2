@@ -35,7 +35,7 @@
   - Criada a função de verificação de variáveis não declaradas e emissão de mensagens 'Warning' no console após compilação do arquivo.
   
 - I) Geração de pelo menos 1 linguagem destino (C/Java/Python)
-  - Geração de arquivos em Java e Python.
+  - Geração de arquivos em Java e C.
   
 ## Anexos A (2 Itens)
 - A1) Nova instrução para Switch/Case (escolha/caso)
@@ -50,7 +50,7 @@
   - Já os operadores de radiciação e logaritmo não apresentaram comportamento esperado.
  
 - A4) Geração de código para mais de uma linguagem diferente
-  - Geração de arquivos em Java e Python. 
+  - Geração de arquivos em Java e C. 
 
 ## Anexos B (2 Itens - NÃO UTILIZADO)
 
