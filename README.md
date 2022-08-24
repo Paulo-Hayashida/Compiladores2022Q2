@@ -20,6 +20,7 @@
   -  Criadas funções de verificação de compatibilidade entre tipos para casos de Declaração de variáveis(1) e Utilização de operadores(2).
   -  exemplo 1: a = 4 + "banana", operação inválida, pois o operador '+' (Soma) espera 'numero' 'OP' 'numero'
   -  exemplo2: numero a = "banana", operação inválida, pois a variável 'a' foi declarada como tipo 'numero' e recebeu o tipo 'texto' (IsiLanguage).
+  -  Várias funções que capturam os tokens anteriores, armazenam-as em variávies para serem analisadas seus tipos, sendo que se não havendo concordancia, gera-se um erro de compilação.
   
 - E) Possuir operações de Entrada e Saída
   - Para a Entrada: Conversão da função Leia (IsiLanguage) para 'Scanner key' na linguagem Java e para 'scanf' na linguagem C.
@@ -30,9 +31,11 @@
    
 - G) Verificar declaração de variávies (não usar variáveis que não foram declaradas)
   - Criada a função de verificação  de variáveis não declaradas utilizando Tabela de Simbolos.
+  - Função verifica se o símbolo existe na table de variáveis, está função está no arquivo IsiLang.g4 abaixo das declarações das variáveis.
         
 - H) Verificar se há variáveis declaradas e não-utilizadas (warning)
   - Criada a função de verificação de variáveis não declaradas e emissão de mensagens 'Warning' no console após compilação do arquivo.
+  - Função abaixo do prog, que verifica o valor dos símbolos, caso "Não Usado", exibe um Warning ao final do programa.
   
 - I) Geração de pelo menos 1 linguagem destino (C/Java/Python)
   - Geração de arquivos em Java e C.
